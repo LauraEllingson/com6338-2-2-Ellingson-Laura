@@ -2,8 +2,15 @@
 function greet() {
     // Prompt user for name
     var userName = prompt("What is your name?");
-    // Greet the user with their name
-    alert("Hello, " + userName);
+     // add name to greeting
+    if (userName) {
+        alert("Hello, " + userName)
+    } else {
+        // Greet the user with Hello if no name entered
+    alert("Hello");
+    }
+    
+    
   
     // Prompt user for age
     var userAge = prompt("How old are you?");

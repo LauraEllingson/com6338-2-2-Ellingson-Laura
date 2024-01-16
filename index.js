@@ -2,7 +2,6 @@
 function greet() {
     // Prompt user for name
     var userName = prompt("What is your name?");
-    // add name to greeting
     if (userName && userName.trim()) {
         alert("Hello, " + userName.trim())
     } else {

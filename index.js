@@ -1,17 +1,17 @@
 // Your code here 
 function greet() {
     // Prompt user for name
-    var name = prompt("What is your name?");
+    var userName = prompt("What is your name?");
     // Greet the user with their name
-    alert("Hello, " + name);
+    alert("Hello, " + userName);
   
     // Prompt user for age
-    var Age = prompt("How old are you?");
+    var userAge = prompt("How old are you?");
     // Convert user's answer to a number using parseInt
-    Age = parseInt(Age);
+    userAge = parseInt(userAge);
   
     // Confirm if the user has had a birthday this year
-    var Birthday = confirm("Have you had a birthday yet this year? OK for Yes. Cancel for No.");
+    var hadBirthday = confirm("Have you had a birthday yet this year? OK for Yes, Cancel for No");
   
     // Get the current year
     var currentYear = new Date().getFullYear();
